@@ -1,0 +1,17 @@
+-Inline VS Block
+Block elements start on a new line and take the full width available ex : heading, paragraph, div
+Inline elements do not start on a new line and take only the necessary width ex : button, span, a, b, i, form, label, input
+hr create horizontal line
+
+div has no meaning assosiated, it's used to group a lot of element together.
+
+for anchor tag, if you want it to open it in a new tab use target="_blank" and for writing the anchor tag u have to use https:// or u will get error 444
+
+for navigation, use nav
+
+
+course 6 :
+
+we use figure, to help styling the image.
+what you can do is you can also add a caption inside this figure
+we use header for the wrapping the head content

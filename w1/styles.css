@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	border: 2px solid red;
+	padding: 24px 24px 0 24px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	margin-bottom: 24px;
+}
+
+.box2 {
+	border: 1px solid black;
+	margin-bottom: 24px;
+}
+
+.box2--small {
+	height: 50px;
+}
+
+.box2__wrapper {
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+}
+
+.box2--large {
+	width: 49%;
+}
+
+.box2-tiny__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box2--tiny {
+	width: calc(100% / 3 - 16px);
+	height: 50px;
+}

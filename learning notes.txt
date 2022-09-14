@@ -15,3 +15,8 @@ course 6 :
 we use figure, to help styling the image.
 what you can do is you can also add a caption inside this figure
 we use header for the wrapping the head content
+
+course 7 :
+
+by display flex, you unlock flex-direction, align-item, justify-content
+  
